@@ -45,8 +45,9 @@ export const ChatList = ({
           padding: token.paddingSM,
           width: "min(90vw, 460px)",
           display: "flex",
-          maxHeight: "calc(100vh - 60px)",
           flexDirection: "column",
+          height: "100%",
+          maxHeight: "100%",
         }}
       >
         <div
