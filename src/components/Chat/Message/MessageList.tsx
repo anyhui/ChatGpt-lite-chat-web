@@ -67,7 +67,7 @@ const MessageRow = React.memo((props: MessageRowProps) => {
   return (
     <div
       data-msg-id={msg.id}
-      style={{ display: 'flow-root' }}
+      style={{ display: 'flow-root', position:'relative' }}
       onMouseUp={(e) => {
         clearTimeout(selectTimer);
         selectTimer = setTimeout(() => {
